@@ -1,0 +1,51 @@
+# Playwright MCP
+.playwright-mcp/
+
+# Odoo source (cloned for reference only)
+odoo-19/
+odoo-src/
+minio/data/
+nginx_cache/
+nginx/ssl/
+
+# Odoo logs
+odoo/log/
+log/
+
+# Odoo filestore & sessions
+odoo/data/
+
+# PostgreSQL data
+db/data/
+postgres/data/
+
+# PgAdmin data
+pgadmin/servers.json
+pgadmin/data/
+
+# chromadb
+chromadb/data/
+
+#nginx
+nginx/cache/
+nginx/ssl/
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
